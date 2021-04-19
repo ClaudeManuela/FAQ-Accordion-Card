@@ -54,6 +54,18 @@ left: 44px;
     font-size: 30px;
 }
 
+.accordion{
+    cursor:pointer;
+    transition: 0.4s;
+}
+
+ .accordion-content{
+display: none;
+}
+.accordion .active{
+    display: block;
+}
+
 
 @media (min-width: 56em){
     .card{
